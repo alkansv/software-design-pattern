@@ -1,0 +1,44 @@
+# Merhaba Dünya!
+
+## Sevgi Alkan
+
+### 1402020214
+
+#### Yazılım Tasarım Kalıpları
+
+
+
+### Linux 
+* Linux; bilgisayar işletim sistemlerinin en temel parçası olan çekirdek yazılımlarından bir tanesidir.
+
+* GNU Genel Kamu Lisansı ile sunulan ve Linux Vakfı çatısı altında geliştirilen bir özgür yazılım projesidir. 
+
+* Linux ismi ilk geliştiricisi olan Linus Torvalds tarafından 1991 yılında verilmiştir.
+
+
+### Linux dağıtımları 
+. Ubuntu
+. Fedora
+. Linux Mint
+. Pardus 
+. Pisi Linux
+
+
+[NOTE]
+=====
+*__##Pardus##__, Türkiye'de TÜBİTAK tarafından geliştirilen bir Linux dağıtımı olan işletim sistemi. Planlamasına 2003 yılında başlanmış olup ilk kararlı sürümü 27 Aralık 2005’te yayınlanmıştır. Pardus adı, Anadolu Parsı'nın bilimsel adı olan Panthera pardus tulliana'dan gelmektedir.*
+====
+https://www.pardus.org.tr/[PARDUS SİTESİNE GİTMEK İÇİN TIKLAYINIZ]
+
+[IMPORTANT]
+====
+*Ubuntu ve Linux Mint kullanıcılar açısından sundugu arayüz dolayısıyla tercih edilmektedir.*
+====
+
+https://www.ubuntu.com/[Ubuntu]
+[CAUTION]
+====
+
+*__Fedora__, açık kaynak kodlu ve özgür bir Linux dağıtımı. Dünya çapında bir özgür yazılım topluluğu olan Fedeora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.*
+====
+https://getfedora.org/tr/[Fedora'nın sitesi için tıklayın]

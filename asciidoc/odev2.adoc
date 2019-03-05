@@ -1,0 +1,76 @@
+[#linux-title]
+= Linux
+
+image::images/Linux.jpg[Linux Logo]
+
+
+== Pardus
+
+image::images/pardus_logo-1485951064.jpg[400,400 Pardus]
+
+
+=== Linux'e adım atmak isimli video
+
+video::Gs8wX7VyAgw[youtube]
+
+
+
+
+== C++ kod ornegi
+
+.app.cpp
+[source,cpp]
+----
+#include <iostream.h>
+#include <math.h> 
+int main()
+{
+    double radius;
+    //get user input
+    cout<<"Please enter the radius : ";
+    cin>>radius;
+    //act on user input
+    if(radius < 0.0)
+    cout<<"Cannot have a negative radius"<<endl;
+    else
+    cout<<"The area of the circle is "<<3.1416 * pow(radius,2)<<endl;
+    
+    return 0;
+}
+----
+
+
+*Projeyi lokale klonlamak için aşağıdaki script kullanılır*
+[source,bash]
+----
+git clone https://github.com/alkansv/software-design-pattern.git
+----
+
+*Projeyi lokalden tamamen silmek için aşağıdaki script kullanılır*
+[source,bash]
+----
+rm -rf software-design-pattern
+----
+
+
+.Yazılım Tasarım Kalıpları 
+[width="100%",options="header,footer"]
+|====================
+| Creational Patterns | Structural Patterns | Behavioral Patterns (Davranışsal)
+| Factory Method,
+  Abstact Factory, 
+  Builder,
+  Singleton,
+  Prototype, | Adapter,Facade Method,Decorator,Bridge  |  Command
+Strategy,
+Observer,
+State,
+Template,
+Iterator,
+Interpreter
+| | |
+|====================
+
+
+
+See <<linux-title,Linux >> to learn how to download linux
