@@ -1,0 +1,79 @@
+== Usecase1
+
+[source,bash]
+----
+@startuml
+
+title Siparis Takip Sistemi - Use Case Diagram
+rectangle Sistem {
+    (Masa açma / kapama)
+    (Sipariş Ekleme / silme)
+    (Hesap kesme)
+}
+
+:Garson:
+
+Garson -- (Masa açma / kapama)
+Garson -- (Sipariş Ekleme / silme)
+Garson -- (Hesap kesme)
+
+@enduml
+
+----
+
+== Usecase2
+
+[source,bash]
+----
+@startuml
+
+title Siparis Takip Sistemi - Use Case Diagram
+
+rectangle Sistem {
+    (Sipariş Ekleme / silme)  
+    (Masa açma / kapama)
+    (Hesabı kapatma) .> (Ödeme) : include
+}
+
+:Garson:
+:Müşteri:
+
+Garson -- (Masa açma / kapama)
+Garson -- (Sipariş Ekleme / silme)
+Garson -- (Hesabı kapatma)
+Müşteri -- (Ödeme)
+Müşteri -- (Sipariş verme/değiştirme)
+
+@enduml
+----
+
+
+== Usecase3
+
+[source,bash]
+----
+@startuml
+title Siparis Takip Sistemi - Use Case Diagram
+
+rectangle Sistem {
+    (Sipariş Ekleme / silme)  
+    (Masa açma / kapama)
+    (Hesabı kapatma) .> (Ödeme) : include
+    (Ödeme)  .> (Fatura/fiş kesme) : include
+}
+
+:Garson:
+:Müşteri:
+:Kasiyer:
+
+Garson -- (Masa açma / kapama)
+Garson -- (Sipariş Ekleme / silme)
+Garson -- (Hesabı kapatma)
+Müşteri -- (Ödeme)
+Müşteri -- (Sipariş verme/değiştirme)
+Kasiyer -- (Masa açma / kapama)
+Kasiyer -- (Hesabı kapatma)
+Kasiyer -- (Fatura/fiş kesme) 
+
+@enduml
+----
