@@ -1,0 +1,54 @@
+@startuml
+
+title Sınıf Diagramı
+
+class Masa {
+  __ private fields __
+  - Numara : Integer
+  - Siparisler : List<Siparis>  
+  
+  .. Getter & Setter ..
+    + Integer getNumara()
+    + List<Siparis>   getSiparisler()
+    + void  setNumara(Integer Numara)
+    + void  setSiparisler(List<Siparis> siparisler)
+    
+  .. Methods ..
+  -void Ac()
+  -void Kapat()
+  -void SiparisEkle(Siparis siparis)
+  -void SiparisSil(Siparis siparis)
+  -Double HesabıKapat()
+}
+
+class Hesap {
+    __ private fields __
+    - MasaNo: Integer
+    - Tutar : Double
+  
+  .. Getter & Setter ..
+    + Integer getMasaNo()
+    + Double getTutar()
+    + void setMasaNo(Integer MasaNo)
+    + void setTutar(Double Tutar )
+    
+  .. Methods ..
+    -void HesabiOde(Integer masaNo)
+
+}
+
+class Siparis {
+   __ private fields __
+   - Fiyat : Double
+ 
+  .. Getter & Setter ..
+    +Double getFiyat()
+    +void setFiyat(Double Fiyat)
+}
+
+Masa -- Hesap : Sahiptir <
+
+Masa " 1 " *-- "birden fazla" Siparis : içerir
+
+
+@enduml
