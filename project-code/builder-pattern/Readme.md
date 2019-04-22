@@ -1,4 +1,5 @@
 # Builder Pattern
+![Builder](https://github.com/alkansv/software-design-pattern/blob/master/project-code/builder-pattern/builder.png?raw=true)
 
 <hr>
 
@@ -75,3 +76,4 @@ public class Masa {
 Masa{masaNo=1, hesap=27.0}
 
 ```
+
