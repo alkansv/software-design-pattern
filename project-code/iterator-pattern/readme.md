@@ -118,3 +118,39 @@ Menu İçeriği :
 Makarna: 7.5₺
 Hamburger: 6.0₺
 ```
+
+
+
+
+<hr>
+# UML kodu
+```uml
+@startuml
+class Demo {
+  void main()
+}
+
+
+class Menu {
+   + List<Siparis> siparisListesi
+   + Menu()
+   + void siparisEkle(Siparis)
+   +Iterator<Siparis> iterator()
+}
+
+class MenuIterator {
+  - int gecerliIndex
+  + boolean hasNext()
+  + Siparis next()
+  + void remove()
+}
+
+
+interface Iterator
+
+Demo --> Menu : kullanır
+Menu --> MenuIterator : sahiptir
+Iterator <|-- MenuIterator : implenete eder
+@enduml
+
+```
