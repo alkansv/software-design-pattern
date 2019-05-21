@@ -1,4 +1,5 @@
-# Iterator Pattern
+# Chain of responsibility 
+ Pattern
 
 ![](https://github.com/alkansv/software-design-pattern/blob/master/project-code/chain-of-responsibility/cor.png?raw=true)
 
