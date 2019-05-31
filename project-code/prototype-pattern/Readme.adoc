@@ -1,7 +1,6 @@
 # Prototype Pattern
 
-![](https://github.com/alkansv/software-design-pattern/blob/master/project-code/prototype-pattern/prototype.png?raw=true)
-
+image::prototype.png[Prototype Pattern]
 
 ```java
 //abstract class kullanıyoruz çünkü
@@ -146,17 +145,14 @@ public class PrototypePattern {
 
 ```
 
-# Çıktı: 
+## Çıktı:
  
 ```java
 Yiyecek tipi : Yiyecek
 Yiyecek Tipi : Icecek
 ```
 
-
-<hr>
-
-# UML kodu
+## UML kodu
 
 ```java
 @startuml

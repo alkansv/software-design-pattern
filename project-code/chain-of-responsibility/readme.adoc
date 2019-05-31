@@ -1,8 +1,6 @@
-# Chain of responsibility 
- Pattern
+# Chain of responsibility Pattern
 
-![](https://github.com/alkansv/software-design-pattern/blob/master/project-code/chain-of-responsibility/cor.png?raw=true)
-
+image::cor.png[ Chain of responsibility Pattern]
 
 ```java
 abstract class AbstractAdim {
@@ -98,7 +96,7 @@ public class ChainPatternOrnek {
 
 ```
 
-# Çıktı: 
+## Çıktı:
  
 ```java
 
@@ -115,9 +113,8 @@ Servis ediliyor
 
 
 
-<hr>
 
-# UML kodu
+## UML kodu
 
 ```java
 @startuml

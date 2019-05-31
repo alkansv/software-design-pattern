@@ -1,7 +1,7 @@
 # Builder Pattern
-![Builder](https://github.com/alkansv/software-design-pattern/blob/master/project-code/builder-pattern/builder.png?raw=true)
 
-<hr>
+image::builder.png[Builder Pattern]
+
 
 ## Masa Sınıfı
 ```java
@@ -53,8 +53,6 @@ public class Masa {
 
 ```
 
-<hr>
-
 
 
 ## Main
@@ -69,9 +67,8 @@ public class Masa {
     }
 
 ```
-<hr>
 
-# Sonuç 
+## Sonuç
 ```java
 Masa{masaNo=1, hesap=27.0}
 

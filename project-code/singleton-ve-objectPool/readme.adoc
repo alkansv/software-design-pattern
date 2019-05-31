@@ -1,4 +1,5 @@
 #  Singleton ve Object Pool Örneği
+
 ### İki pattern birlikte uygulanmıstır.
  Singleton pattern için KullaniciHavuzu sınıfını constructor'ı private yapılarak dışarıdan erişilemez hale getirilerek 
 
@@ -7,7 +8,6 @@
 ```
 sadece kendi içersinde yukarıdaki sekilde yeni bir instance'ı olusturulabilir hale getirilmiştir.
 Diğer detaylı acıklamalar kodun içerisinde mevcuttur.
-<hr>
 
 
 ```java

@@ -1,7 +1,6 @@
 # Decorator Pattern
 
-![](https://github.com/alkansv/software-design-pattern/blob/master/project-code/decorator-pattern/decorator.png?raw=true)
-
+image::decorator.png[Decorator Pattern]
 
 ```java
 public interface Yemek {
@@ -92,8 +91,8 @@ public class DecoratorPatternDemo {
 
 ```
 
-# Çıktı: 
- 
+## Çıktı:
+
 ```java
 
 normal yiyecek hazırlama
@@ -108,12 +107,7 @@ Yemek : Icecek
 Yiyecek durumu : sıcak
 ```
 
-
-
-
-<hr>
-
-# UML kodu
+## UML kodu
 
 ```java
 @startuml

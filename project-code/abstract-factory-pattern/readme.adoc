@@ -1,2 +1,49 @@
 
-![pattern](https://github.com/alkansv/software-design-pattern/blob/master/project-code/abstract-factory-pattern/abs.png?raw=true)
+image::abs.png[Builder Pattern]
+
+
+## SiparisAbstractFactory Sınıfı
+```java
+
+import model.abstractsiparis.model.Siparis;
+
+public interface SiparisAbstractFactory {
+
+    Siparis siparisOlustur();
+}
+```
+
+```java
+
+public class SiparisFactory {
+
+    public static Siparis siparisOlustur(SiparisAbstractFactory saf) {
+        return saf.siparisOlustur();
+    }
+}
+
+```
+
+
+```java
+public class YiyecekFactory implements SiparisAbstractFactory {
+
+    @Override
+    public Siparis siparisOlustur() {
+        return new Yiyecek();
+    }
+}
+
+```
+
+
+```java
+public class IcecekFactory implements SiparisAbstractFactory {
+
+    @Override
+    public Siparis siparisOlustur() {
+        return new Icecek();
+    }
+}
+
+```

@@ -1,6 +1,6 @@
-# Iterator Pattern
+## Iterator Pattern
 
-![](https://github.com/alkansv/software-design-pattern/blob/master/project-code/iterator-pattern/iterartor.png?raw=true)
+image::iterartor.png[Iterator Pattern]
 
 
 ```java
@@ -106,7 +106,7 @@ public class Demo {
 
 ```
 
-# Çıktı: 
+## Çıktı:
  
 ```java
 
@@ -123,11 +123,7 @@ Hamburger: 6.0₺
 ```
 
 
-
-
-<hr>
-
-# UML kodu
+## UML kodu
 
 ```java
 @startuml
