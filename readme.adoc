@@ -1,2 +1,11 @@
-=== Sevgi Alkan
-== 140202014
+=== Software Design Patterns Examples
+
+* Abstract Factory Pattern	
+* Builder Pattern
+* Chain Of Responsibility
+* Decorator Pattern	
+* Factory	Pattern
+* Iterator Pattern
+* Prototype Pattern
+* Singleton Pattern 
+* Object Pool Pattern
